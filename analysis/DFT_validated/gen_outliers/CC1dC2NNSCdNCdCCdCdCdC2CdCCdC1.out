@@ -1,0 +1,486 @@
+### Starting Gaussian ###
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l1.exe "/local/scratch/yxie/Gau-9772.inp" -scrdir="/local/scratch/yxie/"
+ Entering Link 1 = /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l1.exe PID=      9777.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision A.03,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevA.03 25-Dec-2016
+                18-May-2023 
+ ******************************************
+ %chk=CC1dC2NNSCdNCdCCdCdCdC2CdCCdC1.chk
+ %NProcShared=20
+ Will use up to   20 processors via shared memory.
+ -----------------------------
+ # opt freq b3lyp/6-31g(2df,p)
+ -----------------------------
+ 1/18=20,19=15,26=3,38=1/1,3;
+ 2/9=110,12=2,17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=104,11=2,25=1,30=1,71=1,74=-5/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 7//1,2,3,16;
+ 1/18=20,19=15,26=3/3(2);
+ 2/9=110/2;
+ 99//99;
+ 2/9=110/2;
+ 3/5=1,6=6,7=104,11=2,25=1,30=1,71=1,74=-5/1,2,3;
+ 4/5=5,16=3,69=1/1;
+ 5/5=2,38=5/2;
+ 7//1,2,3,16;
+ 1/18=20,19=15,26=3/3(-5);
+ 2/9=110/2;
+ 6/7=2,8=2,9=2,10=2,19=2,28=1/1;
+ 99/9=1/99;
+ -------------------
+ Title Card Required
+ -------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C                     1.11158   0.29814  -0.05036 
+ C                     2.47541  -0.02102  -0.06152 
+ C                     2.78967  -1.34076  -0.0555 
+ N                     1.95114  -2.65812  -0.01681 
+ N                     0.66985  -2.09493  -0.30035 
+ S                    -0.68735  -2.2508    0.28097 
+ C                    -2.03159  -2.80295  -0.38268 
+ N                    -2.77782  -3.44484   0.39631 
+ C                    -3.78878  -3.91099  -0.27817 
+ C                    -4.29628  -5.48798  -0.18952 
+ C                    -2.56959  -5.34549  -0.15285 
+ C                    -0.81091  -4.74007  -0.10347 
+ C                     0.86507  -4.05743  -0.08151 
+ C                     2.43312  -2.90977  -0.05961 
+ C                     4.27661  -1.75956  -0.05321 
+ C                     5.08505  -0.13938  -0.04771 
+ C                     4.49842   1.36993  -0.05168 
+ C                     3.19565   1.24286  -0.06443 
+ H                     0.56607  -0.51075   0.09802 
+ H                     0.70325   0.56328  -0.99028 
+ H                     0.71487   0.60237   0.87496 
+ H                     2.46836  -4.1749   -0.06381 
+ H                     0.66897  -1.73496  -1.16619 
+ H                    -2.36654  -1.86839  -0.14507 
+ H                    -4.54715  -3.2496   -0.12846 
+ H                    -4.2822   -6.67918  -0.08831 
+ H                    -4.3078   -5.22188  -0.02252 
+ H                     5.71084  -1.58196  -0.04642 
+ H                     6.33944   0.69094  -0.04073 
+ H                     4.87737   2.46608  -0.04686 
+ H                     2.57498   2.12062  -0.07307 
+ 
+ Add virtual bond connecting atoms H28        and C15        Dist= 2.73D+00.
+ Add virtual bond connecting atoms H28        and C16        Dist= 2.97D+00.
+ Add virtual bond connecting atoms H29        and C16        Dist= 2.84D+00.
+ Add virtual bond connecting atoms H22        and C13        Dist= 3.04D+00.
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Initialization pass.
+                           ----------------------------
+                           !    Initial Parameters    !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  1.4007         estimate D2E/DX2                !
+ ! R2    R(1,19)                 0.9869         estimate D2E/DX2                !
+ ! R3    R(1,20)                 1.0585         estimate D2E/DX2                !
+ ! R4    R(1,21)                 1.0517         estimate D2E/DX2                !
+ ! R5    R(2,3)                  1.3567         estimate D2E/DX2                !
+ ! R6    R(2,18)                 1.4547         estimate D2E/DX2                !
+ ! R7    R(3,4)                  1.5621         estimate D2E/DX2                !
+ ! R8    R(3,14)                 1.609          estimate D2E/DX2                !
+ ! R9    R(3,15)                 1.5448         estimate D2E/DX2                !
+ ! R10   R(4,5)                  1.428          estimate D2E/DX2                !
+ ! R11   R(4,14)                 0.5454         estimate D2E/DX2                !
+ ! R12   R(5,6)                  1.4847         estimate D2E/DX2                !
+ ! R13   R(5,23)                 0.9377         estimate D2E/DX2                !
+ ! R14   R(6,7)                  1.5976         estimate D2E/DX2                !
+ ! R15   R(7,8)                  1.2553         estimate D2E/DX2                !
+ ! R16   R(7,24)                 1.0208         estimate D2E/DX2                !
+ ! R17   R(8,9)                  1.3016         estimate D2E/DX2                !
+ ! R18   R(9,10)                 1.659          estimate D2E/DX2                !
+ ! R19   R(9,25)                 1.0173         estimate D2E/DX2                !
+ ! R20   R(10,11)                1.7329         estimate D2E/DX2                !
+ ! R21   R(10,26)                1.1956         estimate D2E/DX2                !
+ ! R22   R(10,27)                0.3144         estimate D2E/DX2                !
+ ! R23   R(12,13)                1.8098         estimate D2E/DX2                !
+ ! R24   R(13,22)                1.6077         estimate D2E/DX2                !
+ ! R25   R(14,22)                1.2656         estimate D2E/DX2                !
+ ! R26   R(15,16)                1.8107         estimate D2E/DX2                !
+ ! R27   R(15,28)                1.4452         estimate D2E/DX2                !
+ ! R28   R(16,17)                1.6193         estimate D2E/DX2                !
+ ! R29   R(16,28)                1.5725         estimate D2E/DX2                !
+ ! R30   R(16,29)                1.5043         estimate D2E/DX2                !
+ ! R31   R(17,18)                1.309          estimate D2E/DX2                !
+ ! R32   R(17,30)                1.1598         estimate D2E/DX2                !
+ ! R33   R(18,31)                1.0751         estimate D2E/DX2                !
+ ! A1    A(2,1,19)             110.6494         estimate D2E/DX2                !
+ ! A2    A(2,1,20)             115.1881         estimate D2E/DX2                !
+ ! A3    A(2,1,21)             116.1154         estimate D2E/DX2                !
+ ! A4    A(19,1,20)             97.2144         estimate D2E/DX2                !
+ ! A5    A(19,1,21)             84.0484         estimate D2E/DX2                !
+ ! A6    A(20,1,21)            124.2816         estimate D2E/DX2                !
+ ! A7    A(1,2,3)              116.5617         estimate D2E/DX2                !
+ ! A8    A(1,2,18)             106.5065         estimate D2E/DX2                !
+ ! A9    A(3,2,18)             136.9288         estimate D2E/DX2                !
+ ! A10   A(2,3,4)              134.1195         estimate D2E/DX2                !
+ ! A11   A(2,3,14)             153.8003         estimate D2E/DX2                !
+ ! A12   A(2,3,15)             119.1241         estimate D2E/DX2                !
+ ! A13   A(4,3,15)             106.7402         estimate D2E/DX2                !
+ ! A14   A(14,3,15)             87.073          estimate D2E/DX2                !
+ ! A15   A(3,4,5)               98.2868         estimate D2E/DX2                !
+ ! A16   A(5,4,14)             163.5953         estimate D2E/DX2                !
+ ! A17   A(4,5,6)              134.5123         estimate D2E/DX2                !
+ ! A18   A(4,5,23)             109.6079         estimate D2E/DX2                !
+ ! A19   A(6,5,23)             113.6404         estimate D2E/DX2                !
+ ! A20   A(5,6,7)              130.0019         estimate D2E/DX2                !
+ ! A21   A(6,7,8)              114.7806         estimate D2E/DX2                !
+ ! A22   A(6,7,24)              82.1246         estimate D2E/DX2                !
+ ! A23   A(8,7,24)              97.391          estimate D2E/DX2                !
+ ! A24   A(7,8,9)              108.8615         estimate D2E/DX2                !
+ ! A25   A(8,9,10)             123.3892         estimate D2E/DX2                !
+ ! A26   A(8,9,25)             105.6581         estimate D2E/DX2                !
+ ! A27   A(10,9,25)            112.4625         estimate D2E/DX2                !
+ ! A28   A(9,10,11)             67.553          estimate D2E/DX2                !
+ ! A29   A(9,10,26)            161.4423         estimate D2E/DX2                !
+ ! A30   A(9,10,27)             40.0928         estimate D2E/DX2                !
+ ! A31   A(11,10,26)            93.922          estimate D2E/DX2                !
+ ! A32   A(11,10,27)            87.4594         estimate D2E/DX2                !
+ ! A33   A(26,10,27)           143.0166         estimate D2E/DX2                !
+ ! A34   A(12,13,22)           153.6498         estimate D2E/DX2                !
+ ! A35   A(4,14,22)            119.0837         estimate D2E/DX2                !
+ ! A36   A(3,15,16)            100.7886         estimate D2E/DX2                !
+ ! A37   A(3,15,28)            157.2104         estimate D2E/DX2                !
+ ! A38   A(15,16,17)           132.2409         estimate D2E/DX2                !
+ ! A39   A(15,16,29)           150.0203         estimate D2E/DX2                !
+ ! A40   A(17,16,29)            77.7388         estimate D2E/DX2                !
+ ! A41   A(28,16,29)           100.0503         estimate D2E/DX2                !
+ ! A42   A(16,17,18)           105.6695         estimate D2E/DX2                !
+ ! A43   A(16,17,30)           139.6877         estimate D2E/DX2                !
+ ! A44   A(18,17,30)           114.6428         estimate D2E/DX2                !
+ ! A45   A(2,18,17)            125.2448         estimate D2E/DX2                !
+ ! A46   A(2,18,31)            115.0584         estimate D2E/DX2                !
+ ! A47   A(17,18,31)           119.696          estimate D2E/DX2                !
+ ! A48   A(13,22,14)            84.2165         estimate D2E/DX2                !
+ ! A49   L(3,14,22,6,-1)       194.3206         estimate D2E/DX2                !
+ ! A50   L(17,16,28,29,-1)     177.7892         estimate D2E/DX2                !
+ ! A51   L(3,14,22,6,-2)       181.507          estimate D2E/DX2                !
+ ! A52   L(17,16,28,29,-2)     180.1067         estimate D2E/DX2                !
+ ! D1    D(19,1,2,3)             8.5598         estimate D2E/DX2                !
+ ! D2    D(19,1,2,18)         -170.912          estimate D2E/DX2                !
+ ! D3    D(20,1,2,3)          -100.4389         estimate D2E/DX2                !
+ ! D4    D(20,1,2,18)           80.0893         estimate D2E/DX2                !
+ ! D5    D(21,1,2,3)           102.0766         estimate D2E/DX2                !
+ ! D6    D(21,1,2,18)          -77.3951         estimate D2E/DX2                !
+ ! D7    D(1,2,3,4)             -1.0931         estimate D2E/DX2                !
+ ! D8    D(1,2,3,14)             1.4857         estimate D2E/DX2                !
+ ! D9    D(1,2,3,15)          -179.4069         estimate D2E/DX2                !
+ ! D10   D(18,2,3,4)           178.1653         estimate D2E/DX2                !
+ ! D11   D(18,2,3,14)         -179.2559         estimate D2E/DX2                !
+ ! D12   D(18,2,3,15)           -0.1486         estimate D2E/DX2                !
+ ! D13   D(1,2,18,17)          178.7935         estimate D2E/DX2                !
+ ! D14   D(1,2,18,31)           -0.8969         estimate D2E/DX2                !
+ ! D15   D(3,2,18,17)           -0.5146         estimate D2E/DX2                !
+ ! D16   D(3,2,18,31)          179.795          estimate D2E/DX2                !
+ ! D17   D(2,3,4,5)             12.8119         estimate D2E/DX2                !
+ ! D18   D(15,3,4,5)          -168.7261         estimate D2E/DX2                !
+ ! D19   D(2,3,22,13)           -0.5855         estimate D2E/DX2                !
+ ! D20   D(15,3,22,13)        -179.4886         estimate D2E/DX2                !
+ ! D21   D(2,3,15,16)            0.4047         estimate D2E/DX2                !
+ ! D22   D(2,3,15,28)            0.7365         estimate D2E/DX2                !
+ ! D23   D(4,3,15,16)         -178.3314         estimate D2E/DX2                !
+ ! D24   D(4,3,15,28)         -177.9995         estimate D2E/DX2                !
+ ! D25   D(14,3,15,16)        -179.9899         estimate D2E/DX2                !
+ ! D26   D(14,3,15,28)        -179.6581         estimate D2E/DX2                !
+ ! D27   D(3,4,5,6)           -133.7439         estimate D2E/DX2                !
+ ! D28   D(3,4,5,23)            64.964          estimate D2E/DX2                !
+ ! D29   D(14,4,5,6)           125.7302         estimate D2E/DX2                !
+ ! D30   D(14,4,5,23)          -35.5618         estimate D2E/DX2                !
+ ! D31   D(5,4,14,22)          -78.845          estimate D2E/DX2                !
+ ! D32   D(22,4,14,3)         -178.7432         estimate D2E/DX2                !
+ ! D33   D(4,5,6,7)           -117.2931         estimate D2E/DX2                !
+ ! D34   D(23,5,6,7)            43.4488         estimate D2E/DX2                !
+ ! D35   D(5,6,7,8)            145.1396         estimate D2E/DX2                !
+ ! D36   D(5,6,7,24)          -120.3191         estimate D2E/DX2                !
+ ! D37   D(6,7,8,9)           -175.9713         estimate D2E/DX2                !
+ ! D38   D(24,7,8,9)            99.3243         estimate D2E/DX2                !
+ ! D39   D(7,8,9,10)           131.4644         estimate D2E/DX2                !
+ ! D40   D(7,8,9,25)           -97.2366         estimate D2E/DX2                !
+ ! D41   D(8,9,10,11)          -38.4725         estimate D2E/DX2                !
+ ! D42   D(8,9,10,26)          -34.9128         estimate D2E/DX2                !
+ ! D43   D(8,9,10,27)           76.1263         estimate D2E/DX2                !
+ ! D44   D(25,9,10,11)        -166.9563         estimate D2E/DX2                !
+ ! D45   D(25,9,10,26)        -163.3966         estimate D2E/DX2                !
+ ! D46   D(25,9,10,27)         -52.3574         estimate D2E/DX2                !
+ ! D47   D(12,13,22,14)        179.9622         estimate D2E/DX2                !
+ ! D48   D(4,14,22,13)           5.6991         estimate D2E/DX2                !
+ ! D49   D(3,15,16,17)          -0.2945         estimate D2E/DX2                !
+ ! D50   D(3,15,16,29)         179.823          estimate D2E/DX2                !
+ ! D51   D(15,16,17,18)         -0.1776         estimate D2E/DX2                !
+ ! D52   D(15,16,17,30)        179.829          estimate D2E/DX2                !
+ ! D53   D(29,16,17,18)        179.7624         estimate D2E/DX2                !
+ ! D54   D(29,16,17,30)         -0.231          estimate D2E/DX2                !
+ ! D55   D(16,17,18,2)           0.5454         estimate D2E/DX2                !
+ ! D56   D(16,17,18,31)       -179.7775         estimate D2E/DX2                !
+ ! D57   D(30,17,18,2)        -179.4593         estimate D2E/DX2                !
+ ! D58   D(30,17,18,31)          0.2178         estimate D2E/DX2                !
+ --------------------------------------------------------------------------------
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-06 EigMax=2.50D+02 EigMin=1.00D-04
+ Number of steps in this run=    153 maximum allowed number of steps=    186.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        1.111580    0.298140   -0.050360
+      2          6           0        2.475410   -0.021020   -0.061520
+      3          6           0        2.789670   -1.340760   -0.055500
+      4          7           0        1.951140   -2.658120   -0.016810
+      5          7           0        0.669850   -2.094930   -0.300350
+      6         16           0       -0.687350   -2.250800    0.280970
+      7          6           0       -2.031590   -2.802950   -0.382680
+      8          7           0       -2.777820   -3.444840    0.396310
+      9          6           0       -3.788780   -3.910990   -0.278170
+     10          6           0       -4.296280   -5.487980   -0.189520
+     11          6           0       -2.569590   -5.345490   -0.152850
+     12          6           0       -0.810910   -4.740070   -0.103470
+     13          6           0        0.865070   -4.057430   -0.081510
+     14          6           0        2.433120   -2.909770   -0.059610
+     15          6           0        4.276610   -1.759560   -0.053210
+     16          6           0        5.085050   -0.139380   -0.047710
+     17          6           0        4.498420    1.369930   -0.051680
+     18          6           0        3.195650    1.242860   -0.064430
+     19          1           0        0.566070   -0.510750    0.098020
+     20          1           0        0.703250    0.563280   -0.990280
+     21          1           0        0.714870    0.602370    0.874960
+     22          1           0        2.468360   -4.174900   -0.063810
+     23          1           0        0.668970   -1.734960   -1.166190
+     24          1           0       -2.366540   -1.868390   -0.145070
+     25          1           0       -4.547150   -3.249600   -0.128460
+     26          1           0       -4.282200   -6.679180   -0.088310
+     27          1           0       -4.307800   -5.221880   -0.022520
+     28          1           0        5.710840   -1.581960   -0.046420
+     29          1           0        6.339440    0.690940   -0.040730
+     30          1           0        4.877370    2.466080   -0.046860
+     31          1           0        2.574980    2.120620   -0.073070
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  C    1.400721   0.000000
+     3  C    2.345635   1.356654   0.000000
+     4  N    3.073347   2.689081   1.562071   0.000000
+     5  N    2.446304   2.760107   2.263263   1.428034   0.000000
+     6  S    3.137359   3.884877   3.609855   2.686301   1.484662
+     7  C    4.427947   5.306159   5.048722   4.002121   2.793895
+     8  N    5.416350   6.287176   5.968939   4.811721   3.767495
+     9  C    6.463915   7.376915   7.066234   5.880874   4.814348
+    10  C    7.921079   8.704012   8.211460   6.860626   6.015606
+    11  C    6.738848   7.335554   6.690965   5.260938   4.591500
+    12  C    5.392805   5.750747   4.951948   3.459905   3.037792
+    13  C    4.362651   4.345826   3.329423   1.772513   1.984290
+    14  C    3.469473   2.889060   1.609017   0.545403   1.957305
+    15  C    3.775123   2.503380   1.544794   2.493300   3.630739
+    16  C    3.997486   2.612359   2.590781   4.020746   4.835493
+    17  C    3.552382   2.455078   3.204322   4.766030   5.169627
+    18  C    2.288240   1.454698   2.615338   4.094962   4.192394
+    19  H    0.986864   1.977591   2.378420   2.557890   1.636794
+    20  H    1.058528   2.084359   2.975287   3.589191   2.746489
+    21  H    1.051738   2.089285   2.991037   3.599224   2.942585
+    22  H    4.674304   4.153887   2.852308   1.603230   2.759867
+    23  H    2.361033   2.724172   2.426189   1.953781   0.937688
+    24  H    4.098798   5.183072   5.183910   4.391183   3.048786
+    25  H    6.679355   7.729460   7.581419   6.526108   5.346017
+    26  H    8.819144   9.486680   8.860652   7.418124   6.751526
+    27  H    7.735701   8.547655   8.089392   6.763670   5.884896
+    28  H    4.968700   3.592321   2.931125   3.910798   5.073381
+    29  H    5.242605   3.929128   4.090097   5.520322   6.322399
+    30  H    4.345245   3.457643   4.341727   5.900945   6.210499
+    31  H    2.337411   2.143984   3.468076   4.819616   4.631635
+                    6          7          8          9         10
+     6  S    0.000000
+     7  C    1.597586   0.000000
+     8  N    2.410207   1.255272   0.000000
+     9  C    3.561985   2.079998   1.301637   0.000000
+    10  C    4.870839   3.517885   2.612152   1.659010   0.000000
+    11  C    3.648031   2.608980   1.989323   1.886775   1.732947
+    12  C    2.521810   2.306610   2.407517   3.096063   3.565751
+    13  C    2.409421   3.170972   3.724812   4.660305   5.357021
+    14  C    3.207424   4.477658   5.258142   6.305731   7.207556
+    15  C    4.999389   6.402390   7.266858   8.350436   9.349553
+    16  C    6.155219   7.606141   8.540957   9.644844  10.799860
+    17  C    6.333447   7.756515   8.736497   9.829400  11.153326
+    18  C    5.234754   6.617696   7.607178   8.682748  10.072183
+    19  H    2.152279   3.497584   4.458639   5.537858   6.964047
+    20  H    3.386575   4.379501   5.486848   6.380010   7.890137
+    21  H    3.234134   4.552022   5.367299   6.479428   7.958461
+    22  H    3.712080   4.715239   5.316682   6.266371   6.892049
+    23  H    2.049382   3.007909   4.152765   5.039367   6.300218
+    24  H    1.774099   1.020810   1.716810   2.492528   4.102110
+    25  H    4.007903   2.567521   1.855810   1.017337   2.253222
+    26  H    5.715756   4.491888   3.599857   2.818224   1.195575
+    27  H    4.693302   3.340968   2.382043   1.432889   0.314374
+    28  H    6.441379   7.845324   8.701935   9.783704  10.743366
+    29  H    7.624507   9.077353  10.020983  11.127218  12.301209
+    30  H    7.302228   8.695354   9.681803  10.762095  12.142622
+    31  H    5.466027   6.749658   7.736093   8.770395  10.252735
+                   11         12         13         14         15
+    11  C    0.000000
+    12  C    1.860625   0.000000
+    13  C    3.668934   1.809803   0.000000
+    14  C    5.564938   3.725004   1.943292   0.000000
+    15  C    7.729119   5.896510   4.113346   2.172897   0.000000
+    16  C    9.257870   7.478757   5.758515   3.835093   1.810687
+    17  C    9.750070   8.094675   6.531337   4.751985   3.137341
+    18  C    8.755122   7.200660   5.790075   4.222062   3.191101
+    19  H    5.768016   4.452395   3.563786   3.044014   3.917972
+    20  H    6.806345   5.586111   4.712007   3.990072   4.363781
+    21  H    6.871762   5.641542   4.759320   4.020066   4.373352
+    22  H    5.172925   3.327852   1.607685   1.265628   3.017242
+    23  H    4.954902   3.514272   2.570769   2.391009   3.775499
+    24  H    3.483032   3.266230   3.903747   4.912078   6.644676
+    25  H    2.881682   4.022638   5.472378   6.988876   8.949001
+    26  H    2.171619   3.976208   5.776505   7.700961   9.872037
+    27  H    1.747467   3.530854   5.302642   7.126516   9.256387
+    28  H    9.096208   7.246388   5.441569   3.536482   1.445200
+    29  H   10.762057   8.979271   7.246890   5.312702   3.203182
+    30  H   10.793010   9.180868   7.658716   5.905445   4.268136
+    31  H    9.067291   7.650767   6.410317   5.032408   4.236949
+                   16         17         18         19         20
+    16  C    0.000000
+    17  C    1.619311   0.000000
+    18  C    2.341089   1.309015   0.000000
+    19  H    4.536555   4.361507   3.164843   0.000000
+    20  H    4.536776   3.991863   2.744282   1.535173   0.000000
+    21  H    4.527691   3.970272   2.728910   1.365582   1.865686
+    22  H    4.809651   5.904780   5.466358   4.131694   5.140458
+    23  H    4.826866   5.054420   4.057758   1.762812   2.305217
+    24  H    7.650173   7.590989   6.373722   3.240753   4.006371
+    25  H   10.122216  10.157179   8.951941   5.804964   6.545799
+    26  H   11.424360  11.911709  10.893922   7.847928   8.838636
+    27  H   10.679797  11.000105   9.904362   6.779667   7.714613
+    28  H    1.572467   3.191182   3.782342   5.257092   5.528913
+    29  H    1.504319   1.962270   3.191958   5.898738   5.717043
+    30  H    2.613724   1.159815   2.079605   5.241165   4.683371
+    31  H    3.377676   2.064852   1.075067   3.314981   2.601914
+                   21         22         23         24         25
+    21  H    0.000000
+    22  H    5.174778   0.000000
+    23  H    3.103468   3.225888   0.000000
+    24  H    4.079241   5.357504   3.205435   0.000000
+    25  H    6.597983   7.076563   5.529821   2.581294   0.000000
+    26  H    8.883669   7.200144   7.079634   5.178482   3.440033
+    27  H    7.743034   6.856691   6.183432   3.876778   1.989573
+    28  H    5.529915   4.151785   5.166986   8.083059  10.392984
+    29  H    5.699309   6.217893   6.269440   9.074974  11.578143
+    30  H    4.652910   7.064434   6.050807   8.442245  11.022578
+    31  H    2.581444   6.296430   4.437711   6.351063   8.920037
+                   26         27         28         29         30
+    26  H    0.000000
+    27  H    1.459009   0.000000
+    28  H   11.218033  10.659397   0.000000
+    29  H   12.928270  12.178895   2.358229   0.000000
+    30  H   12.943540  11.978008   4.132953   2.299741   0.000000
+    31  H   11.156058  10.064170   4.852157   4.026933   2.328310
+                   31
+    31  H    0.000000
+ Small interatomic distances encountered:     27    10
+ Problem with the distance matrix.
+ Error termination via Lnk1e in /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe at Thu May 18 15:02:36 2023.
+ Job cpu time:       0 days  0 hours  0 minutes  8.5 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  2.2 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000002631, rsp 00007fffffff8718, rbp 00007fffffff8c90
+   rsi 000000000000000b, rdi 0000000000002631, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffffff81a0, r11 0000000000000206
+   r12 00007fffffff8cd8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /usr/lib64/libpthread.so.0(+0xf630) [0x2aaaaacde630]
+  /usr/lib64/libc.so.6(kill+0x7) [0x2aaaab223657]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x4647b9]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x47ae4a]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x49bcfc]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x490b2f]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x4522ad]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x450beb]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x450af4]
+  /usr/lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaaab20f555]
+  /cluster/software/gaussian/gaussian-16-A.03/avx2/g16/l202.exe() [0x4509e9]
+### All Done ###
