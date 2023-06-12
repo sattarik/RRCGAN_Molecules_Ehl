@@ -1,6 +1,7 @@
 import os
 import glob
 import pandas as pd
+import numpy as np
 
 
 def hartree_to_ev(x):
@@ -17,3 +18,7 @@ def read_csv_concat(path='./'):
 	    #print('Location:', f)
 	    print('File Name:', f.split("\\")[-1])
 	return (data_gen)
+	
+def NormalizeData(data, min_data, max_data):
+    
+    return (data - min_data) / (max_data - min_data)
