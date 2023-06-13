@@ -1,4 +1,4 @@
-# Reinforced Regressinal and Conditional GAN: RRCGAN
+﻿# Reinforced Regressinal and Conditional GAN: RRCGAN
 Submitted to Nature Computational Science.
 
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
@@ -42,7 +42,16 @@ We primarily used Lewis Cluster from University of Missouri-Columbia for running
 -GPU Nvidia RTX 2080 Super, Cuda version: 10.1, cuDNN: 7.6, Tensorflow: 2.11.0
 
 # Files Guidance
+## directory: ./model_regular:
+contains codes for the Regular model. 
+1) "preprocessing.ipynb" contains the code for reading the '.csv' files from PubChemQC library. 
+2) "embedding_version_0_3.ipynb" contains encoder and decoder models. 
+3) "Main_model_V01.ipynb" contains the code for Regressor and GAN models. After training the AE using "embedding_version_0_3.ipynb" file, the whole architecture should be trained here. After training, the file has a section for sample generation. 
+## directory: ./model_transfer:
+contains codes for the first iteration of Transferred model.
 
+## directory: ./model_transfer2:
+contains codes for the second iteration of Transferred model.
 
 # License
 This project is covered under the **GNU General Public License v3.0**.  The details of the used License is in License file. 
