@@ -1,6 +1,8 @@
 ﻿# Reinforced Regressinal and Conditional GAN: RRCGAN
 Submitted to Nature Computational Science.
 
+![Scheme of the prediction model](https://github.com/sattarik/RRCGAN_Molecules_Ehl/blob/main/scheme.png)
+
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 
 RRCGAN is a deep generative model using a Generative Adversarial Network (GAN) combined with a Regressor to generate molecules with targeted properties. It is purely run in Python. Using GPU is necessary, otherwise running the code takes a lot!
